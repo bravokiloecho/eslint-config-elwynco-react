@@ -3,11 +3,6 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ['@/constants', './constants'],
-          ['@/copy', './copy'],
-          ['@/tempData', './tempData'],
-          ['@/helpers', './helpers'],
-          ['@/graphQl', './graphQl'],
           ['@', './components'],
           ['~', '.'],
         ],
