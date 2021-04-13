@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-elwynco-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "ESLint config for React apps as suits elwynco's tastes",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
   ],
   "author": "Benjamin E <ben@elwyn.co>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bravokiloecho/eslint-config-elwynco-react.git"
+  },
   "devDependencies": {
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
