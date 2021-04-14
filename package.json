@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-elwynco-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint config for React apps as suits elwynco's tastes",
   "main": "index.js",
   "scripts": {
