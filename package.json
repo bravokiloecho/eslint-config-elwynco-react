@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint -c ./.eslintrc.js --ignore-pattern node_modules --ext .js,.jsx ./"
+    "lint": "eslint -c ./.eslintrc.js --ignore-pattern node_modules --ext .js,.jsx ./",
+    "patch": "npm version path",
+    "update:minor": "npm version minor",
+    "update:major": "npm version major",
+    "publish": "npm publish"
   },
   "keywords": [
     "eslint",
