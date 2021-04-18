@@ -12,7 +12,7 @@ npx install-peerdeps --dev eslint-config-elwynco-react
 Then add this line to your `.eslintrc` config file.
 
 ```
-"extends": ["elwynco-react"]` 
+"extends": ["elwynco-react"]
 ```
 
 ## Import rules (optional)
@@ -20,7 +20,7 @@ Then add this line to your `.eslintrc` config file.
 If you also want to lint absolute imports with Next.js the follow the [instructions on the Next.js website](https://nextjs.org/docs/advanced-features/module-path-aliases) and include the import linting rules from this package by adjusting the `extends` property of your `.eslintrc` config file to:
 
 ```
-"extends": ["elwynco-react", "elwynco-react/import"]`
+"extends": ["elwynco-react", "elwynco-react/import"]
 ```
 
 You can then import anything in your `components` directory like this:
