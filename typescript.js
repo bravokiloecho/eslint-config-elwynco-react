@@ -6,6 +6,7 @@ module.exports = {
   extends: ['plugin:@typescript-eslint/recommended'],
 
   rules: {
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     // Use TS for these
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
