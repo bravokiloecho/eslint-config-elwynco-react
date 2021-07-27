@@ -1,4 +1,4 @@
-This is an ESLint config for React projects that uses [AirBnB's styleguide](https://github.com/airbnb/javascript) with a few changes to the rules that suit met.
+This is an ESLint config for React projects that uses [AirBnB's styleguide](https://github.com/airbnb/javascript) with a few changes to the rules that suit me.
 
 ## Installation
 
