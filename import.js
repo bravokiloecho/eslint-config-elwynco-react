@@ -1,4 +1,16 @@
 module.exports = {
+  rules: {
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+  },
   settings: {
     'import/resolver': {
       alias: {
@@ -6,7 +18,7 @@ module.exports = {
           ['@', './components'],
           ['~', '.'],
         ],
-        extensions: ['.ts', '.js', '.jsx', '.json', '.css'],
+        extensions: ['.ts', '.js', '.jsx', '.tsx', '.json', '.css'],
       },
     },
   },

@@ -17,7 +17,7 @@ Then add this line to your `.eslintrc` config file.
 
 ## Import rules (optional)
 
-If you also want to lint absolute imports with Next.js the follow the [instructions on the Next.js website](https://nextjs.org/docs/advanced-features/module-path-aliases) and include the import linting rules from this package by adjusting the `extends` property of your `.eslintrc` config file to:
+If you also want to lint absolute imports with Next.js the follow the [instructions on the Next.js website](https://nextjs.org/docs/advanced-features/module-path-aliases) and include the import linting rules from this package update the `extends` property of your `.eslintrc` config file to include `elwynco-react/import`. Eg:
 
 ```
 "extends": ["elwynco-react", "elwynco-react/import"]
@@ -33,6 +33,14 @@ and any files in the root of your repo like this:
 
 ```
 import utils from "~/helpers/utils"
+```
+
+## Typescript rules (optional)
+
+If you want to lint a Typescript project then update the `extends` property of your `.eslintrc` config file to include `elwynco-react/typescript`. Eg:
+
+```
+"extends": ["elwynco-react", "elwynco-react/typescript"]
 ```
 
 ## Peer dependencies
